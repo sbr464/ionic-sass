@@ -47,5 +47,5 @@ Package.onUse(function(api) {
     'stylesheets/_variables.scss'
   ], 'server');
 
-  api.addFiles('_ionic.scss', 'server');
+  api.addAssets('_ionic.scss');
 });
